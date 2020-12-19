@@ -169,6 +169,21 @@
         </resources>
     </build>
 
+    <!--    配置maven私服自动化部署-->
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://192.168.139.132:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://192.168.139.132:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <!--    配置maven私服自动化部署-->
+
     <repositories>
         <!--        nexus私服-->
         <repository>

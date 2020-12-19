@@ -39,7 +39,7 @@
         <!-- Spring Boot End -->
 
         <!-- Spring Cloud Begin -->
-<!--        config服务器需要的依赖-->
+        <!--        config服务器需要的依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
@@ -79,4 +79,19 @@
             </plugin>
         </plugins>
     </build>
+    <!--    私服仓库-->
+    <repositories>
+        <!--        nexus私服-->
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Repository</name>
+            <url>http://192.168.139.132:8081/repository/maven-public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
 </project>
