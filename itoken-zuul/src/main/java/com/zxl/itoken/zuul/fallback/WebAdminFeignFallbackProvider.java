@@ -1,4 +1,4 @@
-package com.zxl.itkoen.zuul.fallback;
+package com.zxl.itoken.zuul.fallback;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;

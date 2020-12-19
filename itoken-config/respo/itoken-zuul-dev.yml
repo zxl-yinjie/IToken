@@ -14,7 +14,7 @@ zuul:
   routes:
     api-a:
       path: /api/a/**
-#      serviceId: itoken-web-admin-ribbon
+      serviceId: itoken-web-admin-ribbon
     api-b:
       path: /api/b/**
-#      serviceId: itoken-web-admin-feign
+      serviceId: itoken-web-admin-feign

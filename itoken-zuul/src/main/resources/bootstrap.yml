@@ -1,10 +1,10 @@
 spring:
   application:
-    name: itkoen-zuul-dev
+    name: itoken-zuul-dev
   cloud:
     config:
       uri: http://localhost:8888
-      name: itkoen-zuul
+      name: itoken-zuul
       label: main
       profile: dev
   zipkin:
