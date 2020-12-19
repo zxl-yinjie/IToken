@@ -17,7 +17,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8084
+        url: http://39.98.75.197:8084
 
 management:
   endpoints:
@@ -36,4 +36,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://39.98.75.197:8761/eureka/

@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://39.98.75.197:8888
       name: itoken-zuul
       label: main
       profile: dev
