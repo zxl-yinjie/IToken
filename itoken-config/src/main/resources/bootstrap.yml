@@ -1,6 +1,6 @@
 spring:
   application:
-    name: itkoen-config
+    name: itoken-config
   cloud:
     config:
       label: main
