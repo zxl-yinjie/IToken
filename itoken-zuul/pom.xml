@@ -63,7 +63,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
-        <!--        被admin监控管理的配置-->
+        <!--        被admin监控管理客户端的配置-->
         <dependency>
             <groupId>org.jolokia</groupId>
             <artifactId>jolokia-core</artifactId>
@@ -71,10 +71,10 @@
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-server</artifactId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
             <version>2.3.1</version>
         </dependency>
-        <!--        被admin监控管理的配置-->
+        <!--        被admin监控管理客户端的配置-->
     </dependencies>
 
     <build>
