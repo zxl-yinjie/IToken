@@ -1,27 +1,9 @@
 spring:
   application:
-    name: itkoen-admin
+    name: itoken-admin
   cloud:
     config:
       uri: http://localhost:8888
       name: itoken-admin
       label: main
       profile: dev
-
-#server:
-#  port: 8084
-#
-#management:
-#  endpoint:
-#    health:
-#      show-details: always
-#  endpoints:
-#    web:
-#      exposure:
-#        # 注意：此处在视频里是 include: ["health", "info"] 但已无效了，请修改
-#        include: health,info
-#
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: http://localhost:8761/eureka/
