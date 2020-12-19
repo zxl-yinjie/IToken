@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/zxl-yinjie/itoken.git
-          search-paths: itoken-config/respo
+          search-paths: respo
           username: 1782391567@qq.com
           password: 0359095049ll
 
