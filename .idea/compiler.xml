@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="itoken-zuul" />
         <module name="demo-spring-cloud-admin" />
-        <module name="itoken-admin" />
         <module name="itoken-config" />
+        <module name="itoken-admin" />
         <module name="itoken-eureka" />
       </profile>
     </annotationProcessing>
