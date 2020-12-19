@@ -10,10 +10,25 @@ spring:
           search-paths: itoken-config/respo
           username: 1782391567@qq.com
           password: 0359095049ll
+          #将默认lable改为main
+          default-label: main
+  zipkin:
+    base-url: http://localhost:9411
   boot:
     admin:
       client:
         url: http://localhost:8084
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" #暴露所有节点
+    health:
+      sensitive: false #关闭过滤敏感信息
+  endpoint:
+    health:
+      show-details: ALWAYS  #显示详细信息
 
 server:
   port: 8888
